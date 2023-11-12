@@ -40,6 +40,7 @@ jobs:
           NODE_ENV: production
           NUXT_DEPLOY_URL: ${{ vars.NUXT_DEPLOY_URL }}
           NUXT_PUBLIC_DEFAULT_SERVER: ${{ vars.NUXT_PUBLIC_DEFAULT_SERVER }}
+          NUXT_PUBLIC_SINGLE_INSTANCE: true
           NUXT_STORAGE_DRIVER: kv-binding
           VITE_DEV_PWA: true
           NITRO_PRESET: ${{ vars.NITRO_PRESET }}
