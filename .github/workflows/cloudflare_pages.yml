@@ -47,7 +47,7 @@ jobs:
       - name: Publish
         uses: cloudflare/pages-action@1
         with:
-          directory: .output/public
+          directory: dist/
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: ${{ secrets.CLOUDFLARE_PAGES_PROJECT_NAME }}
           apiToken: ${{ secrets.CLOUDFLARE_PAGES_API_TOKEN }}
